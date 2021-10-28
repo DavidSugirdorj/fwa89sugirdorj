@@ -6,5 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('mydata', { title: 'Sugirdorj Dagvadorj' });
 });
 
-var indexRouter = require('./routes/mydata');
 module.exports = router;
